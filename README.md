@@ -97,7 +97,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![docker ps](Images/docker_ps_output.png)![image](https://user-images.githubusercontent.com/91572862/135313063-c40dda40-6a08-4cce-b870-28a4f14425b7.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -133,3 +134,4 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
