@@ -44,6 +44,8 @@ Metricbeat records metrics and statistical data from the operating system and fr
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
+
+
 | Name     | Function   | IP Address | Operating System |
 |----------|----------  |------------|------------------|
 | Jump Box | Gateway    | 10.0.0.4   | Linux            |
