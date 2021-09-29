@@ -2,9 +2,8 @@
 
 The files in this **repository** were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![Automated ELK Stack Deployment ](![image](https://user-images.githubusercontent.com/91572862/135280996-a7e8d281-0b05-424b-a59f-908cdd5bd87d.png)
 
-![ELK Stack Deployment] ![image](https://user-images.githubusercontent.com/91572862/135280120-dcb54fd7-6f93-486d-bfeb-6576dee9d537.png)
 
 
 
