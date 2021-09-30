@@ -81,22 +81,25 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-[Pentest.yml](https://github.com/BaibaSisco/Week13Homework-Elk/blob/main/Ansible/Pentest.yml)---
+[Pentest.yml](https://github.com/BaibaSisco/Week13Homework-Elk/blob/main/Ansible/Pentest.yml)
 
       
 
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+ *What is the main advantage of automating configuration with Ansible?*
 
-Deployment of multiple servers easily without touching each server is the main advantage of authomating configuration with Ansible.
+* Deployment of multiple servers easily without touching each server is the main advantage of authomating configuration with Ansible.
+* Efficient- because you don't need to install any extra software. 
+* Powerful- Ansible lets you model even highly complex IT workflows.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- Install Docker.io
-- Increase VM memory
-- Install docker Python model
-- Dowload and launch ELK Docker container 
+*In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.*
+
+ * Install Docker.io
+ * Increase VM memory
+ * Install docker Python model
+ * Dowload and launch ELK Docker container 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
