@@ -13,7 +13,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - _TODO: Enter the playbook file._
  
 
-  ![image]install-elk.yml
+  ![image]https://github.com/naumanjaliawala/resolved-saucer/raw/master/ansible/install-elk.yml
   
 
 
