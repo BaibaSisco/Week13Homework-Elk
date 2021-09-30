@@ -126,11 +126,9 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 *In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.*
 
-* Filebeat monitors for log files and locations and collects log activities.
-  (Filebeat: Lightweight Log Analysis & Elasticsearch)
+* Filebeat monitors for log files and locations and collects log activities.(Filebeat: Lightweight Log Analysis & Elasticsearch)
 
-* Metricbeat records metrics and statistical data from the operating system and from services running on the server.
-  (Metricbeat: Lightweight Shipper for Metrics)
+* Metricbeat records metrics and statistical data from the operating system and from services running on the server.(Metricbeat: Lightweight Shipper for Metrics)
   
   [metricbeat-playbook.yml](https://github.com/BaibaSisco/Week13Homework-Elk/blame/main/Ansible/Metricbeat-Playbook.yml)
   
@@ -141,9 +139,9 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ssh-keygen file to ssh public key.
-- Update the security rule file to include the IP address.
-- Run the playbook, and navigate to ELK VM Public IP:5601/app/kibana to check that the installation worked as expected.
+* Copy the *ssh-keygen* file to *ssh public key*.
+* Update the security rule file to include the IP address.
+* Run the playbook, and navigate to `ELK VM Public IP:5601/app/kibana` to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
