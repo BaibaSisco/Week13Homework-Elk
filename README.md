@@ -29,18 +29,20 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly *available*, in addition to restricting *access* to the network.
 
-*Load balancers are responsible to ensure availability to the web servers.Because the load balancer is between the clients and the servers it can enhance the user experience by providing additional security, performance and simplify scaling your website. 
+* Load balancers are responsible to ensure availability to the web servers.Because the load balancer is between the clients and the servers it can enhance the user experience by providing additional security, performance and simplify scaling your website. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 
-*Advantage of the Jump Box is having one point for administrative tasks, and it is secure.
+
+
+* Advantage of the Jump Box is having one point for administrative tasks, and it is secure.
 Administrators are required to access the Jump Box first before accessing the other servers.
 
 
 
-*Filebeat watches log files and locations to collect log events.
+* Filebeat watches log files and locations to collect log events.
 
-*Metricbeat records metrics and statistical data from the operating system and from services running on the server.
+* Metricbeat records metrics and statistical data from the operating system and from services running on the server.
 
 
 The configuration details of each machine may be found below.
@@ -65,9 +67,7 @@ Only the *Jump Box* machine can accept connections from the Internet. Access to 
 
 Machines within the network can only be accessed by Jump Box.
 
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
-
-The ELK VM is only accessible via SSH from the Jump Box and through web access from Host IP address. 
+* The ELK VM is only accessible via SSH from the Jump Box and through web access from `Host IP address`. 
 
 A summary of the access policies in place can be found in the table below.
 
