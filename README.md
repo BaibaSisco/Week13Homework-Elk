@@ -2,7 +2,7 @@
 
 The files in this **repository** were used to configure the network depicted below.
 
-![image](https://user-images.githubusercontent.com/91572862/135280996-a7e8d281-0b05-424b-a59f-908cdd5bd87d.png)
+![image]
 
 
 
@@ -11,61 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
   
-  ![install_elk.yml]---
-- name: Configure Elk VM with Docker
-  hosts: elkservers
-  remote_user: elk
-  become: true
-  tasks:
-    # Use apt module
-    - name: Install docker.io
-      apt:
-        update_cache: yes
-        name: docker.io
-        state: present
-
-      # Use apt module
-    - name: Install pip3
-      apt:
-        force_apt_get: yes
-        name: python3-pip
-        state: present
-
-      # Use pip module
-    - name: Install Docker python module
-      pip:
-        name: docker
-        state: present
-
-      # Use sysctl module
-    - name: Use more memory
-      sysctl:
-        name: vm.max_map_count
-        value: "262144"
-        state: present
-        reload: yes
-
-      # Use docker_container module
-    - name: download and launch a docker elk container
-      docker_container:
-        name: elk
-        image: sebp/elk:761
-        state: started
-        restart_policy: always
-        published_ports:
-          - 5601:5601
-          - 9200:9200
-          - 5044:5044
-  
-
-This document contains the following details:
-- Description of the Topologu
-- Access Policies
-- ELK Configuration
-  - Beats in Use
-  - Machines Being Monitored
-- How to Use the Ansible Build
-
+ https://github.com/naumanjaliawala/resolved-saucer/blob/master/ansible/install-elk.yml
 
 ### Description of the Topology
 
