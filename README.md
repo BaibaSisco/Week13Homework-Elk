@@ -132,11 +132,12 @@ These Beats allow us to collect the following information from each machine:
 * Metricbeat records metrics and statistical data from the operating system and from services running on the server.
   (Metricbeat: Lightweight Shipper for Metrics)
   
-  [metricbeat-playbook.yml] ---
-- name: Install metric beat
-  hosts: webservers
-  become: true
-  tasks:
+  ![metricbeat-playbook.yml] 
+  ---
+  - name: Install metric beat
+    hosts: webservers
+    become: true
+    tasks:
     # Use command module
   - name: Download metricbeat
     command: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.4.0-amd64.deb
