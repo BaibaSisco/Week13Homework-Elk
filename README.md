@@ -61,7 +61,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the *Jump Box* machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-'5601 Kibana Port' 
+`5601 Kibana Port` 
 
 Machines within the network can only be accessed by Jump Box.
 
