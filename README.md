@@ -2,7 +2,8 @@
 
 The files in this **repository** were used to configure the network depicted below.
 
-![image]
+![image]![image](https://user-images.githubusercontent.com/91572862/135367918-e34d6d22-c2c9-4f3c-bc20-1935c5193371.png)
+
 
 
 
