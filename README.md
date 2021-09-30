@@ -132,7 +132,7 @@ These Beats allow us to collect the following information from each machine:
 * Metricbeat records metrics and statistical data from the operating system and from services running on the server.
   (Metricbeat: Lightweight Shipper for Metrics)
   
-  ![metricbeat-playbook.yml](https://github.com/BaibaSisco/Week13Homework-Elk/blame/main/Ansible/Metricbeat-Playbook.yml)
+  [metricbeat-playbook.yml](https://github.com/BaibaSisco/Week13Homework-Elk/blame/main/Ansible/Metricbeat-Playbook.yml)
   
   
 
