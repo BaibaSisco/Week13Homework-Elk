@@ -132,7 +132,36 @@ These Beats allow us to collect the following information from each machine:
 * Metricbeat records metrics and statistical data from the operating system and from services running on the server.
   (Metricbeat: Lightweight Shipper for Metrics)
   
-  [metricbeat-playbook.yml](https://github.com/BaibaSisco/Week13Homework-Elk/commit/ecf77cf0b1e97ac9131771c7a9ecdc37ff0af808)
+  [metricbeat-playbook.yml] ---
+- name: Install metric beat
+  hosts: webservers
+  become: true
+  tasks:
+    # Use command module
+  - name: Download metricbeat
+    command: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.4.0-amd64.deb
+
+    # Use command module
+  - name: install metricbeat
+    command: dpkg -i metricbeat-7.4.0-amd64.deb
+
+    # Use copy module
+  - name: drop in metricbeat config
+    copy:
+      src: /etc/ansible/files/metricbeat-config.yml
+      dest: /etc/metricbeat/metricbeat.yml
+
+    # Use command module
+  - name: enable and configure docker module for metric beat
+    command: metricbeat modules enable docker
+
+    # Use command module
+  - name: setup metric beat
+    command: metricbeat setup
+
+    # Use command module
+  - name: start metric beat
+    command: service metricbeat start
 
 
 ### Using the Playbook
