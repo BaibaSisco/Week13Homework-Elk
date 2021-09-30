@@ -11,7 +11,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
   
- https://github.com/naumanjaliawala/resolved-saucer/blob/master/ansible/install-elk.yml
+ <img width="621" alt="install_elk yml" src="https://user-images.githubusercontent.com/91572862/135367753-409fcc31-9ca4-4a41-a1dc-494613bef184.png">
+
 
 ### Description of the Topology
 
