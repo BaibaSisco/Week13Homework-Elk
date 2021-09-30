@@ -146,13 +146,9 @@ SSH into the control node and follow the steps below:
 
 - _Which file is the playbook? Where do you copy it?_
 
- `$ cd /etc/ansible`
- `$ mkdir files`
- `# Clone Respository + IaC Files`
- `$ git clone https://github.com/yourusername/project-1.git`
- `# Move Playbooks and hosts file Info `/etc/ansible`
- `$ cp project-1/playbooks/* .`
- `$ cp project-1/files/* ./files`
+![image](https://user-images.githubusercontent.com/91572862/135545712-25adf66a-2ebb-4bea-ab48-dac9b545c569.png)
+
+ 
  
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - _Which URL do you navigate to in order to check that the ELK server is running?
