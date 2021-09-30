@@ -132,7 +132,7 @@ These Beats allow us to collect the following information from each machine:
 * Metricbeat records metrics and statistical data from the operating system and from services running on the server.
   (Metricbeat: Lightweight Shipper for Metrics)
   
-  [metricbeat-playbook.yml](---
+  [metricbeat-playbook.yml](https://github.com/BaibaSisco/Week13Homework-Elk/commit/ecf77cf0b1e97ac9131771c7a9ecdc37ff0af808)
 
 
 ### Using the Playbook
