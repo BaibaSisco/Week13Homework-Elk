@@ -158,6 +158,5 @@ After this, the commands below run the playbook:
 
 ![image](https://user-images.githubusercontent.com/91572862/135546872-c42969f7-3f46-460b-b49d-0df94ded0652.png)
 
-To verify success, wait five minutes to give ELK time to start up.
-Then, run `curl http://10.1.0.4:5601`.This is the address of Kibana. If the instalation succeeded, this command should print HTML to the console. 
+To verify if ELK server is running navigate to http://publicIP(ELK-VM):5601  
 
