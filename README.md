@@ -158,15 +158,6 @@ After this, the commands below run the playbook:
 
 ![image](https://user-images.githubusercontent.com/91572862/135546872-c42969f7-3f46-460b-b49d-0df94ded0652.png)
 
-
-
-
-
-
- 
- 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+To verify success, wait five minutes to give ELK time to start up.
+Then, run `curl http://10.1.0.4:5601`.This is the address of Kibana. If the instalation succeeded, this command should print HTML to the console. 
 
