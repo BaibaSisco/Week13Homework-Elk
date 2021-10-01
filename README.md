@@ -144,9 +144,24 @@ SSH into the control node and follow the steps below:
 * Run the playbook, and navigate to `ELK VM Public IP:5601/app/kibana` to check that the installation worked as expected.
 
 
-- _Which file is the playbook? Where do you copy it?_
+The easiest way to copy playbooks is to use Git:
 
 ![image](https://user-images.githubusercontent.com/91572862/135545712-25adf66a-2ebb-4bea-ab48-dac9b545c569.png)
+
+This copies the playbook files to the correct place.
+
+Next, you must create a `hosts` file to specify which VM's to run each playbook on. Run the commands bellow:
+
+![image](https://user-images.githubusercontent.com/91572862/135546550-b16b6319-e23a-47da-b050-60225f61d43e.png)
+
+After this, the commands below run the playbook:
+
+![image](https://user-images.githubusercontent.com/91572862/135546872-c42969f7-3f46-460b-b49d-0df94ded0652.png)
+
+
+
+
+
 
  
  
