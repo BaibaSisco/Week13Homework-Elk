@@ -99,7 +99,8 @@ The playbook implements the following tasks:
  * Install Docker.io
  * Increase VM memory
  * Install docker Python model
- * Dowload and launch ELK Docker container 
+ * Dowload and launch ELK Docker container
+ * Set Ports 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
