@@ -161,3 +161,5 @@ After this, the commands below run the playbook:
 
 To verify if ELK server is running navigate to http://publicIP(ELK-VM):5601  
 
+You will need to ensure all files are properly placed before running the ansible-playbooks.
+
